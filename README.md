@@ -23,6 +23,14 @@ Quiz app made with Java Spring Boot.
 
 ![image](https://github.com/joaquinmetayer/quizzapp/assets/83543601/2b8f16a9-56ba-40e9-adf2-484f7ed0fb4c)
 
+**/quiz/get/{id}**
+
+![image](https://github.com/joaquinmetayer/quizapp/assets/83543601/b71064c1-f02a-477d-96f1-eee08b3fe9f7)
+
+**/quiz/submit/{id}**
+
+![image](https://github.com/joaquinmetayer/quizapp/assets/83543601/860a8dc3-3c29-4f88-9297-a463c79904ab)
+
 ## Database View
 
 ![image](https://github.com/joaquinmetayer/quizzapp/assets/83543601/deb53dee-b127-4982-a891-5c9b58dc584e)
