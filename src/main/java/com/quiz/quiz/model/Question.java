@@ -11,7 +11,9 @@ import lombok.Data;
 public class Question {
 
     @Id
+    // id se refiere a que este campo sea de registro unico para la db
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    // indica que la base de datos se encargará de generar automáticamente valores únicos para la clave primaria
     private Integer id;
     private String questionTitle;
     private String option1;
@@ -21,4 +23,5 @@ public class Question {
     private String rightAnswer;
     private String difficultylevel;
     private String category;
+
 }

@@ -4,12 +4,13 @@ import com.quiz.quiz.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
 @RequestMapping("question")
 public class QuestionController {
+
+    // metodos simples, aclaraciones para estudio en quiz controller
 
     @Autowired
     QuestionService questionService;

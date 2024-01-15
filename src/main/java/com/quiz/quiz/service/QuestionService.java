@@ -14,6 +14,8 @@ public class QuestionService {
     @Autowired
     QuestionDao questionDao;
 
+    // metodos simples, aclaraciones para estudio en quiz service
+
     public ResponseEntity<List<Question>> getAllQuestions() {
         try {
             return new ResponseEntity<>(questionDao.findAll(), HttpStatus.OK);
@@ -30,7 +32,6 @@ public class QuestionService {
             e.printStackTrace();
         }
         return new ResponseEntity<>(new ArrayList<>(), HttpStatus.BAD_REQUEST);
-
     }
 
     public ResponseEntity<String> addQuestion(Question question) {
